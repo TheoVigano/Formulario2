@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(218, 218, 207);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    color: black;
+    margin-left: 35%;
+    margin-top: 2%;
+    justify-content: center;
+}
+h1{
+    font-size: 16pt;
+    background-color: rgb(160, 107, 28);
+    width: 60%;
+
+}
+h2{
+    font-size: 16pt;
+}
+
+.campo{
+    margin-bottom: 10px;
+    
+}
+#tipo{
+    display: inline-block;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type = "password"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px black;
+    display: inline-block;
+}
+
+.botao{
+    font-size: 12pt;
+    background: azure;
+    border: solid black 1px;
+    border-radius: 7px;
+    color: black;
+    padding: 0.3em 0.6em;
+    margin-top: 10px;
+}
+
+.botao:hover {
+    background: azure;
+    box-shadow: 3px 3px 3px black;
+    text-shadow: none;
+}
